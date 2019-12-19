@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7V2-QV-Mbw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="ypQ-fg-eYl">
+            <objects>
+                <viewController id="7V2-QV-Mbw" customClass="SplashViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bfu-rC-t0I"/>
+                        <viewControllerLayoutGuide type="bottom" id="QFK-MA-Fpv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PpJ-Mf-v7M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="by2-WU-23R">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSPS" translatesAutoresizingMaskIntoConstraints="NO" id="JUo-fd-FPY">
+                                <rect key="frame" x="110" y="343" width="194" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="u3m-ea-Wd0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loader_line" translatesAutoresizingMaskIntoConstraints="NO" id="AtW-ha-oyM">
+                                <rect key="frame" x="57" y="531" width="301" height="5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="powered_by_dialog" translatesAutoresizingMaskIntoConstraints="NO" id="GjL-VV-l64">
+                                <rect key="frame" x="109" y="586" width="196" height="90"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSPS-icon" translatesAutoresizingMaskIntoConstraints="NO" id="EcS-Vo-Y8S">
+                                <rect key="frame" x="125" y="140" width="163" height="143"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JUo-fd-FPY" firstAttribute="leading" secondItem="PpJ-Mf-v7M" secondAttribute="leadingMargin" constant="90" id="0Cn-4c-1BX"/>
+                            <constraint firstItem="by2-WU-23R" firstAttribute="leading" secondItem="PpJ-Mf-v7M" secondAttribute="leading" id="1aU-wu-BwG"/>
+                            <constraint firstItem="JUo-fd-FPY" firstAttribute="top" secondItem="EcS-Vo-Y8S" secondAttribute="bottom" constant="60" id="7ux-ok-yGv"/>
+                            <constraint firstItem="JUo-fd-FPY" firstAttribute="centerY" secondItem="PpJ-Mf-v7M" secondAttribute="centerY" id="8iU-vO-sJ5"/>
+                            <constraint firstItem="by2-WU-23R" firstAttribute="bottom" secondItem="QFK-MA-Fpv" secondAttribute="top" id="FH4-qg-3Pf"/>
+                            <constraint firstItem="GjL-VV-l64" firstAttribute="centerX" secondItem="PpJ-Mf-v7M" secondAttribute="centerX" id="Ipx-Zb-uUc"/>
+                            <constraint firstItem="AtW-ha-oyM" firstAttribute="centerX" secondItem="PpJ-Mf-v7M" secondAttribute="centerX" id="R69-dZ-THk"/>
+                            <constraint firstItem="by2-WU-23R" firstAttribute="centerY" secondItem="PpJ-Mf-v7M" secondAttribute="centerY" id="YcU-hO-J3s"/>
+                            <constraint firstAttribute="trailing" secondItem="by2-WU-23R" secondAttribute="trailing" id="bZo-cY-Hg2"/>
+                            <constraint firstItem="GjL-VV-l64" firstAttribute="top" secondItem="AtW-ha-oyM" secondAttribute="bottom" constant="50" id="nEy-Se-8QX"/>
+                            <constraint firstItem="EcS-Vo-Y8S" firstAttribute="centerX" secondItem="PpJ-Mf-v7M" secondAttribute="centerX" id="nIm-cZ-3fY"/>
+                            <constraint firstItem="QFK-MA-Fpv" firstAttribute="top" secondItem="GjL-VV-l64" secondAttribute="bottom" constant="60" id="oey-sb-pAa"/>
+                            <constraint firstItem="by2-WU-23R" firstAttribute="top" secondItem="PpJ-Mf-v7M" secondAttribute="top" id="ruM-hx-VhP"/>
+                            <constraint firstItem="JUo-fd-FPY" firstAttribute="centerY" secondItem="PpJ-Mf-v7M" secondAttribute="centerY" id="u7Z-Cn-7u4"/>
+                            <constraint firstItem="JUo-fd-FPY" firstAttribute="centerX" secondItem="PpJ-Mf-v7M" secondAttribute="centerX" id="uc2-ij-54I"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8w-ld-osC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DSPS" width="167" height="52"/>
+        <image name="DSPS-icon" width="163" height="143"/>
+        <image name="loader_line" width="301" height="5"/>
+        <image name="powered_by_dialog" width="196" height="90"/>
+        <image name="splash" width="375" height="667"/>
+    </resources>
+</document>

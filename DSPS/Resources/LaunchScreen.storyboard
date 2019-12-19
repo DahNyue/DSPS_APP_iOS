@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="Fe3-TT-2gu">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dKF-b9-9GV">
+            <objects>
+                <viewController id="Fe3-TT-2gu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pku-D6-fN6"/>
+                        <viewControllerLayoutGuide type="bottom" id="fax-kC-rBN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="91H-df-Gd2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="j4h-Dh-Nsw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSPS" translatesAutoresizingMaskIntoConstraints="NO" id="Ajl-0D-dYB">
+                                <rect key="frame" x="110" y="343" width="194" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="PvV-KS-zhr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loader_line" translatesAutoresizingMaskIntoConstraints="NO" id="8fJ-ad-JlN">
+                                <rect key="frame" x="57" y="531" width="301" height="5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="powered_by_dialog" translatesAutoresizingMaskIntoConstraints="NO" id="Wor-LU-Buf">
+                                <rect key="frame" x="109" y="586" width="196" height="90"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSPS-icon" translatesAutoresizingMaskIntoConstraints="NO" id="e37-ae-ncd">
+                                <rect key="frame" x="125" y="140" width="163" height="143"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ajl-0D-dYB" firstAttribute="centerX" secondItem="91H-df-Gd2" secondAttribute="centerX" id="1GF-Le-OMp"/>
+                            <constraint firstItem="Ajl-0D-dYB" firstAttribute="top" secondItem="e37-ae-ncd" secondAttribute="bottom" constant="60" id="1k2-VC-nOT"/>
+                            <constraint firstItem="Wor-LU-Buf" firstAttribute="top" secondItem="8fJ-ad-JlN" secondAttribute="bottom" constant="50" id="5Pb-kZ-uNb"/>
+                            <constraint firstItem="fax-kC-rBN" firstAttribute="top" secondItem="Wor-LU-Buf" secondAttribute="bottom" constant="60" id="DzA-6T-Lo4"/>
+                            <constraint firstItem="j4h-Dh-Nsw" firstAttribute="centerY" secondItem="91H-df-Gd2" secondAttribute="centerY" id="EQR-eC-hHZ"/>
+                            <constraint firstItem="e37-ae-ncd" firstAttribute="centerX" secondItem="91H-df-Gd2" secondAttribute="centerX" id="PfH-TF-94p"/>
+                            <constraint firstItem="j4h-Dh-Nsw" firstAttribute="leading" secondItem="91H-df-Gd2" secondAttribute="leading" id="UvE-mI-yEf"/>
+                            <constraint firstItem="j4h-Dh-Nsw" firstAttribute="top" secondItem="91H-df-Gd2" secondAttribute="top" id="VmO-vu-tQ6"/>
+                            <constraint firstItem="Ajl-0D-dYB" firstAttribute="leading" secondItem="91H-df-Gd2" secondAttribute="leadingMargin" constant="90" id="ZBo-ha-16K"/>
+                            <constraint firstItem="j4h-Dh-Nsw" firstAttribute="bottom" secondItem="fax-kC-rBN" secondAttribute="top" id="buT-t7-ySa"/>
+                            <constraint firstItem="Wor-LU-Buf" firstAttribute="centerX" secondItem="91H-df-Gd2" secondAttribute="centerX" id="gk0-Y7-GIv"/>
+                            <constraint firstItem="Ajl-0D-dYB" firstAttribute="centerY" secondItem="91H-df-Gd2" secondAttribute="centerY" id="huF-Ol-MT9"/>
+                            <constraint firstAttribute="trailing" secondItem="j4h-Dh-Nsw" secondAttribute="trailing" id="nEs-vL-MNp"/>
+                            <constraint firstItem="8fJ-ad-JlN" firstAttribute="centerX" secondItem="91H-df-Gd2" secondAttribute="centerX" id="rPA-QY-dNP"/>
+                            <constraint firstItem="Ajl-0D-dYB" firstAttribute="centerY" secondItem="91H-df-Gd2" secondAttribute="centerY" id="tl0-U9-6FZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r34-Kc-EQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DSPS" width="167" height="52"/>
+        <image name="DSPS-icon" width="163" height="143"/>
+        <image name="loader_line" width="301" height="5"/>
+        <image name="powered_by_dialog" width="196" height="90"/>
+        <image name="splash" width="375" height="667"/>
+    </resources>
+</document>
