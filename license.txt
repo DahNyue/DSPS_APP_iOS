@@ -1,0 +1,50 @@
+LICENSES
+
+NAME                            LICENSE FILE PATH                                       LICENSE TYPE                    COPYRIGHT                   COMMENTS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DSPS iOS Application            dsps_app_ios/dialog-license.txt                         Dialog proprietary              Dialog Semiconductor        Licensed under the relevant Dialog SLA
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Apache Cordova                  dsps_app_ios/www/cordova.js                             Apache License Version 2.0      The Apache Software         https://cordova.apache.org
+                                dsps_app_ios/CordovaLib/                                                                Foundation                  https://github.com/apache/cordova-ios
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cordova-plugin-console          dsps_app_ios/www/plugins/cordova-plugin-console/        Apache License Version 2.0      The Apache Software         https://github.com/apache/cordova-plugin-console
+                                dsps_app_ios/DSPS/Plugins/cordova-plugin-console/                                       Foundation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cordova-plugin-dialogs          dsps_app_ios/www/plugins/cordova-plugin-dialogs/        Apache License Version 2.0      The Apache Software         https://github.com/apache/cordova-plugin-dialogs
+                                dsps_app_ios/DSPS/Plugins/cordova-plugin-dialogs/                                       Foundation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cordova-plugin-file             dsps_app_ios/www/plugins/org.apache.cordova.file/       Apache License Version 2.0      The Apache Software         https://github.com/apache/cordova-plugin-file
+                                dsps_app_ios/DSPS/Plugins/...                                                           Foundation
+                                    .../CDVAssetLibraryFilesystem.h
+                                    .../CDVAssetLibraryFilesystem.m
+                                    .../CDVFile.h
+                                    .../CDVFile.m
+                                    .../CDVLocalFilesystem.h
+                                    .../CDVLocalFilesystem.m
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+jQuery                          dsps_app_ios/www/js/jquery.min.js                       MIT License                     jQuery Foundation, Inc.     https://jquery.org
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+jQuery Mobile                   dsps_app_ios/www/js/jquery.mobile.min.js                MIT License                     jQuery Foundation, Inc.     https://jquerymobile.com
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Slideout.js                     dsps_app_ios/www/js/slideout.js                         MIT License                     Mango                       https://slideout.js.org
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Underscore.js                   dsps_app_ios/www/plugins/org.underscorejs.underscore/   MIT License                     Jeremy Ashkenas             http://underscorejs.org
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BC.js                           dsps_app_ios/www/plugins/...                            Apache License Version 2.0      JUMA Technology             https://github.com/bcsphere/bluetooth
+                                    .../org.bcsphere/                                                                   Dialog Semiconductor        Original code by JUMA Technology
+                                    .../org.bcsphere.bluetooth/
+                                    .../org.bcsphere.cordova.utilities/
+                                dsps_app_ios/Plugins/...
+                                    .../org.bcsphere.bluetooth/
+                                    .../BCUtility.h
+                                    .../BCUtility.m
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This software includes both proprietary and open source components. The proprietary components may only be used after execution of the
+relevant Dialog Semiconductor Licensing Agreement. If you have not executed such an agreement you are not authorised to use this software.
+All open source components constitute a separate delivery and are licensed according to the applicable terms of their respective open source
+licenses. All open source software is delivered “AS IS” with no warranties. While Dialog Semiconductor seeks to provide complete and
+accurate licensing information with regard to each open source package, Dialog Semiconductor does not warrant or represent that the
+licensing information is complete or error-free. Certain open source licenses may require that source code is made available under
+certain conditions. Please contact bluetooth.support@diasemi.com for any source code requests, as well as for any licensing inquiries
+with respect to the proprietary components.
